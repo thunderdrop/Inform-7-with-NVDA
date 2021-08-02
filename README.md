@@ -20,10 +20,25 @@ If you have comments, corrections, or tips of your own, please submit them in an
 
 If you are interested in the workings of the Inform 7 Windows IDE, [its sourcecode is here](https://github.com/DavidKinder/Windows-Inform7).
 
-I'm providing this link in good faith, and not as a dig at David Kinder. He has worked and does work hard on the software, and I don't believe its present state of accessibility to be a result of any malice on his part. That said, I will not spend any time apologizing for its present state either. Problems with accessibility are [bugs][1] by definition, and anyone's wanting them fixed is not personal.
-[1]: https://www.techopedia.com/definition/24864/software-bug-
+I'm providing the above link in good faith, and not as a dig at David Kinder. He has worked and does work hard on the software, and I don't believe its present state of accessibility to be a result of any malice on his part. That said, I will not spend any time apologizing for its present state either. Problems with accessibility are [bugs](https://www.techopedia.com/definition/24864/software-bug-) by definition, and anyone's wanting them fixed is not personal.
 
 ## Usability
 
-### What we Absolutely _can_ Do
+This section discusses the various tasks an Author can acomplish in Inform 7, and how much they might be impeded by the program's current design.
+
+### Easy (no barrier)
+
+Most of the core functions of the Inform 7 IDE are thankfully all available to a user of NVDA, with no barrier in the best cases and a slight learning curve in the worst. Here is a complete list of everything that is possible:
+
+* The creation and management of projects
+* The creation and management of extensions and extension projects
+* The writing, reading, and editing of source
+* Compilation and release
+* The reading of compilation errors
+* Searching the Documentation
+* The adjustment of preferences
+
+### Harder (Doable, but difficult or inconvenient)
+
+The features in the following list are all technically accessible, but their functionality is diminished to a point where their usefulness is debatable.
 
