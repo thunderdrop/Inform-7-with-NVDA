@@ -26,19 +26,40 @@ I'm providing the above link in good faith, and not as a dig at David Kinder. He
 
 This section discusses the various tasks an Author can acomplish in Inform 7, and how much they might be impeded by the program's current design.
 
-### Easy (no barrier)
+The information here applies most specifically to versions of Inform 7 6m62, but applies fairly consistently back to 6g60.
+
+The minimum tested NVDA version is 2014.1. Considering the current stable release is version 2021.1, this should be good news for a range of users.
+
+### No Barrier
 
 Most of the core functions of the Inform 7 IDE are thankfully all available to a user of NVDA, with no barrier in the best cases and a slight learning curve in the worst. Here is a complete list of everything that is possible:
 
 * The creation and management of projects
 * The creation and management of extensions and extension projects
+* Navigation between different parts of the interface
 * The writing, reading, and editing of source
+* The reading of highlighted syntax (requires changing NVDA settings)
 * Compilation and release
 * The reading of compilation errors
 * Searching the Documentation
 * The adjustment of preferences
 
-### Harder (Doable, but difficult or inconvenient)
+### Low Barrier (Doable, but difficult or inconvenient)
 
-The features in the following list are all technically accessible, but their functionality is diminished to a point where their usefulness is debatable.
+The features in the following list are all technically accessible, but their functionality is diminished to a point where their usability is somewhat debatable. They are also most likely the easiest to fix.
+
+* Viewing the built-in documentation (improved in 64-bit app)
+* Playing or testing projects in the "story" tab
+* Using the "Test Me" feature
+* Using the spell checker
+* Viewing the console output
+
+### High Barrier (Not Currently Possible)
+
+The following features are not currently usable in any meaningful way.
+
+* The entire index
+* The skein
+* Navigation or restriction by headings
+* Viewing the transcript
 
