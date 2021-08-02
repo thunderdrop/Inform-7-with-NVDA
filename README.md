@@ -64,7 +64,7 @@ The features in the following list are all technically accessible, but their fun
 
 ### High Barrier (Not Currently Possible)
 
-The following features are not currently usable in any meaningful way.
+The following features are not currently usable in any meaningful way. These are listed in order of most-to-least trivial to fix.
 
 * The entire index
 * The skein
@@ -74,4 +74,50 @@ The following features are not currently usable in any meaningful way.
 ***
 
 ## Using the Program
+
+What follows is a collection of tips and tricks, in no particular order. They concern potential approaches to working around some of the limitations of the software, listed in the "No" and "Low" Barrier sections. This is not intended to be a technical representation of the issues, but a summary of techniques for an Author wanting to maximize what they can use.
+
+### Navigating Between Parts of the Window
+
+Various keyboard shortcuts work in Inform which allow you to easily skip between parts of the window. Here are the most useful ones:
+
+<table>
+	<tr>
+		<th>Press</th>
+		<th>To</th>
+	</tr>
+	<tr>
+		<td>CTRL+F1</td>
+		<td>source text</td>
+	</tr>
+	<tr>
+		<td>CTRL+F2</td>
+		<td>show compilation report and the console</td>
+	</tr>
+	<tr>
+		<td>CTRL+F6</td>
+		<td>Show a running version of compiled source</td>
+	</tr>
+	<tr>
+		<td>CTRL+F7</td>
+		<td>Show the documentation</td>
+	</tr>
+	<tr>
+		<td>CTRL+F8</td>
+		<td>show installed extensions in-app</td>
+	</tr>
+	<tr>
+		<td>CTRL+F9</td>
+		<td>preferences</td>
+	</tr>
+	<tr>
+		<td>F10</td>
+		<td>find in files</td>
+	</tr>
+</table>
+
+A final shortcut is worth mentioning in this section, and that is the "Switch Panes" shortcut:
+Inform 7 remembers the last thing you were doing before using one of the commands in the table above. TO switch back to that task, press F6.
+
+e.g. When you compile your source ("Go!") either compilation will succeed and you will be placed on the "Story" tab, or it will fail, and you will be placed in a report containing compilation errors. To switch back to your source from here, you can press F6.
 
