@@ -1,4 +1,4 @@
-# Getting the Most out of the Inform 7 Windows IDE using NonVisual Desktop Access
+# Getting the Most out of the Inform 7 Windows IDE with NonVisual Desktop Access
 
 ***
 
@@ -110,14 +110,35 @@ Various keyboard shortcuts work in Inform which allow you to easily skip between
 		<td>CTRL+F9</td>
 		<td>preferences</td>
 	</tr>
+</table>
+
+A final shortcut is worth mentioning in this section, and that is the "Switch Panes" shortcut - F6.
+Inform 7 remembers the last thing you were doing before using one of the commands in the table above. TO switch back to that task, press F6.
+
+e.g. When you compile your source ("Go!") either compilation will succeed and you will be placed on the "Story" tab, or it will fail, and you will be placed in a report containing compilation errors. To switch back to your source from here, you can press F6.
+
+### Other Shortcuts
+
+Inform 7 for Windows also has other shortcuts typical of Windows programs. CTRL+n for "new", CTRL+O for "open", CTRL+S for "save", CTRL+Z for undo, CTRL+F for find, etc. Menus can also be navigated to with Alt+initial (where initial is the first letter of the menu's name).
+
+There are a few more built-in keyboard shortcuts specific to Inform 7 projects which make life easier:
+
+<table>
+	<tr>
+		<th>Press</th>
+		<th>To</th>
+	</tr>
+	<tr>
+		<td>F5</td>
+		<td>compile and run("Go!")</td>
+	</tr>
+	<tr>
+		<td>F7</td>
+		<td>Compile without running ("Refresh Index")</td>
+	</tr>
 	<tr>
 		<td>F10</td>
 		<td>find in files</td>
 	</tr>
 </table>
-
-A final shortcut is worth mentioning in this section, and that is the "Switch Panes" shortcut:
-Inform 7 remembers the last thing you were doing before using one of the commands in the table above. TO switch back to that task, press F6.
-
-e.g. When you compile your source ("Go!") either compilation will succeed and you will be placed on the "Story" tab, or it will fail, and you will be placed in a report containing compilation errors. To switch back to your source from here, you can press F6.
 
