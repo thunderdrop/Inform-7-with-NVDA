@@ -1,8 +1,14 @@
 # Getting the Most out of the Inform 7 Windows IDE using NonVisual Desktop Access
 
+***
+
 ## Purpose of this Document
 
-This document exists to familiarize an Inform 7 author with the form and functions of David Kinder's Windows interface, and recommendations of how these can best be accessed with a screenreader. This document primarily focuses on using the program with NonVisual Desktop Access (herein "NVDA"), though some of these techniques have equivalents in other screenreaders, and applying those equivalents may have positive results.
+This document exists to familiarize an Inform 7 author with the form and functions of David Kinder's Windows interface, and recommendations of how these can best be accessed with a screenreader. This document primarily focuses on using the program with [NonVisual Desktop Access] (https://www.nvaccess.org/) (herein "NVDA"), though some of these techniques have equivalents in other screenreaders, and applying those equivalents may have positive results.
+
+### A reminder to sighted readers
+
+Screenreaders are only specialized insofar as they convert on-screen text to speech or Braille output. They do this through calls to existing APIs, which are well documented and officially supported.
 
 ### Method
 
@@ -22,11 +28,13 @@ If you are interested in the workings of the Inform 7 Windows IDE, [its sourceco
 
 I'm providing the above link in good faith, and not as a dig at David Kinder. He has worked and does work hard on the software, and I don't believe its present state of accessibility to be a result of any malice on his part. That said, I will not spend any time apologizing for its present state either. Problems with accessibility are [bugs](https://www.techopedia.com/definition/24864/software-bug-) by definition, and anyone's wanting them fixed is not personal.
 
+***
+
 ## Usability
 
 This section discusses the various tasks an Author can acomplish in Inform 7, and how much they might be impeded by the program's current design.
 
-The information here applies most specifically to versions of Inform 7 6m62, but applies fairly consistently back to 6g60.
+The information here applies most specifically to versions of Inform 7 build 6m62, but applies fairly consistently back to build 6g60.
 
 The minimum tested NVDA version is 2014.1. Considering the current stable release is version 2021.1, this should be good news for a range of users.
 
@@ -62,4 +70,8 @@ The following features are not currently usable in any meaningful way.
 * The skein
 * Navigation or restriction by headings
 * Viewing the transcript
+
+***
+
+## Using the Program
 
