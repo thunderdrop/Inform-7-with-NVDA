@@ -4,7 +4,7 @@
 
 ## Purpose of this Document
 
-This document exists to familiarize an Inform 7 author with the form and functions of David Kinder's Windows interface, and recommendations of how these can best be accessed with a screenreader. This document primarily focuses on using the program with [NonVisual Desktop Access] (https://www.nvaccess.org/) (herein "NVDA"), though some of these techniques have equivalents in other screenreaders, and applying those equivalents may have positive results.
+This document exists to familiarize an Inform 7 author with the form and functions of David Kinder's Windows interface, and recommendations of how these can best be accessed with a screenreader. This document primarily focuses on using the program with [NonVisual Desktop Access](https://www.nvaccess.org/) (herein "NVDA"), though some of these techniques have equivalents in other screenreaders, and applying those equivalents may have positive results.
 
 ### A reminder to sighted readers
 
