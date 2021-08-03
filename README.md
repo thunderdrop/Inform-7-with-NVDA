@@ -16,7 +16,7 @@ This documentation is split into two sections.
 
 The first discusses the ease of access to the functions of the modern Inform 7 IDE. In this case, "ease" refers not to a user's proficiency with either their screenreader or Inform 7, but the relative accessibility of those functions to NVDA's built-in services.
 
-Most users reasonably familiar with NVDA already have the skills necessary to use Inform 7 with it. For all but the story tab, standard editing and page navigation commands are all you will need. To use the story tab, you will need to know the basics of object navigation.
+Most users reasonably familiar with NVDA already have the skills necessary to use Inform 7 with it. For all but the "Story" tab, standard editing and page navigation commands are all you will need. To use the "Story" tab, you will need to know the basics of object navigation.
 
 The second section is less organized: It contains specific information on how to work around accessibility bugs in Inform 7 to acomplish certain tasks. It is only descriptive, and is not intended as a discussion of best practice. In other words, if you find a better way, do that instead. And please share it with us!
 
@@ -88,7 +88,7 @@ Various keyboard shortcuts work in Inform which allow you to easily skip between
 	</tr>
 	<tr>
 		<td>CTRL+F1</td>
-		<td>source text</td>
+		<td>view/edit source text</td>
 	</tr>
 	<tr>
 		<td>CTRL+F2</td>
@@ -141,4 +141,35 @@ There are a few more built-in keyboard shortcuts specific to Inform 7 projects w
 		<td>find in files</td>
 	</tr>
 </table>
+
+### Testing your Game
+
+Inform 7 for Windows has built-in interpreters which will run your compiled code in a console on the "Story" tab, allowing you to test it straight from the IDE without needing to release it for testing every time you make a change. This feature is almost accessible to screenreader users. You will be able to enter commands into your story and read their output, with a caveat:
+
+At present, the output of your commands is not automatically read by a screenreader as it comes in; you will have to manually scroll up each time you eneter a command, and read the output line by line.
+
+It comes down to a question of what you find most inconvenient. You can of course release the game and play it in an interpreter which automatically reads the output, but you will have to do that every time you make even the smallest change. If you choose to use the "Story" tab, you will have to read the output manually. This can be frustrating (especially if your testing commands give a lot of output), as each time you enter something, your focus jumps to the bottom of that pane.
+
+Here are some instructions for reading the output from within the app, and some tips to make it a little less painless.
+
+By default, Inform 7 automatically places your focus where you need it. You will know you are in the right place if you see a multi-line edit with your command prompt in it. This will be ">", or whatever you set it to in your source.
+
+If you aren't placed in the correct field, press CTRL+F6 to get there. If you're not sure that you are there, you can press F6 twice to jump back to the previous pane, and then to the "Story" tab.
+
+From here, you can use basic [text review](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ReviewingText) commands to view your input and output. These appear in the same field, in the manner of Frotz, Glulx, and HTML TADS.
+
+If your keyboard focus is in the right place but your review curser is somewhere else, anchor your review curser to your keyboard focus with the shortcut set on your system. By default, the shortcuts are:
+
+* Desktop layout: NVDA+numpadMinus
+* Laptop layout: NVDA+backspace
+
+You may also want to unsync your review curser from your system caret. This reduces the amount of scrolling up you have to do, as new commands will not reset the position of your review curser to the bottom. The default gesture for this on all layouts is NVDA+6. The gesture is called:
+
+> Toggles on and off the movement of the review cursor due to the caret moving.
+
+If you would rather just run your testing commands from the IDE and view the output somewhere else, you can type them in as defined in source, and then copy the contents of the field to a file.
+
+1. CTRL+A in the console to select all
+2. CTRL+C to copy selection.
+3. CTRL+V in a file somewhere to paste.
 
