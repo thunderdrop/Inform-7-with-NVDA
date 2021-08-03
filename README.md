@@ -153,7 +153,7 @@ As of 6m62, the names of the menus on the menu bar are no longer announced after
 <table>
 	<tr>
 		<th>Press</th>
-		<For</th>
+		<th>For</th>
 	</tr>
 	<tr>
 		<td>Alt+F</td>
@@ -168,7 +168,7 @@ As of 6m62, the names of the menus on the menu bar are no longer announced after
 		<td>Format</td>
 	</tr>
 	<tr>
-		Alt+P</td>
+		<td>Alt+P</td>
 		<td>Play</td>
 	</tr>
 	<tr>
