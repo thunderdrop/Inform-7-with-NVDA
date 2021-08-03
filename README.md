@@ -193,7 +193,7 @@ As of 6m62, the names of the menus on the menu bar are no longer announced after
 
 Inform 7 for Windows has built-in interpreters which will run your compiled code in a console on the "Story" tab, allowing you to test it straight from the IDE without needing to release it for testing every time you make a change. This feature is almost accessible to screenreader users. You will be able to enter commands into your story and read their output, with a caveat:
 
-At present, the output of your commands is not automatically read by a screenreader as it comes in; you will have to manually scroll up each time you eneter a command, and read the output line by line.
+At present, the output of your commands is not automatically read by a screenreader as it comes in; you will have to manually scroll up each time you enter a command, and read the output line by line.
 
 It comes down to a question of what you find most inconvenient. You can of course release the game and play it in an interpreter which automatically reads the output, but you will have to do that every time you make even the smallest change. If you choose to use the "Story" tab, you will have to read the output manually. This can be frustrating (especially if your testing commands give a lot of output), as each time you enter something, your focus jumps to the bottom of that pane.
 
@@ -234,7 +234,7 @@ The first time you press the gesture, NVDA will start reading a line from the co
 
 Navigate left from here (NVDA+numpad4 or Shift+NVDA+left) and you will find an unlabelled tab control. Move inside the tab control (NVDA+numpad2 or Shift+NVDA+down) and you will be focused on the 'Report" tab, which will be selected.
 
-Move to the right once (NVDA+numpad6 or Shift+NVDA+right), and you will hear "console  tab". Activate this tab, and your keyboard focus will jump into the console Window, which you can navigate with your arrow keys or review cursor, as you prefer.
+Move to the right once (NVDA+numpad6 or Shift+NVDA+right), and you will hear "console  tab". Activate this tab (NVDA+enter), and your keyboard focus will jump into the console Window, which you can navigate with your arrow keys or review cursor as you prefer.
 
 ### Notes on Reading Syntax
 
