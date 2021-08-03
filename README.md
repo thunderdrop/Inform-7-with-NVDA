@@ -6,7 +6,7 @@
 
 This document exists to familiarize an Inform 7 author with the form and functions of David Kinder's Windows interface, and recommendations of how these can best be accessed with a screenreader. This document primarily focuses on using the program with [NonVisual Desktop Access](https://www.nvaccess.org/) (herein "NVDA"), though some of these techniques have equivalents in other screenreaders, and applying those equivalents may have positive results.
 
-### A reminder to sighted readers
+#### A Reminder to Sighted Readers
 
 Screenreaders are only specialized insofar as they convert on-screen text to speech or Braille output. They do this through calls to existing APIs, which are well documented and officially supported.
 
@@ -18,13 +18,13 @@ The first discusses the ease of access to the functions of the modern Inform 7 I
 
 Most users reasonably familiar with NVDA already have the skills necessary to use Inform 7 with it. For all but the "Story" tab, standard editing and page navigation commands are all you will need. To use the "Story" tab, you will need to know the basics of [object navigation](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ObjectNavigation) and [text review](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ReviewingText).
 
-The second section is less organized: It contains specific information on how to work around accessibility bugs in Inform 7 to acomplish certain tasks. It is only descriptive, and is not intended as a discussion of best practice. In other words, if you find a better way, do that instead. And please share it with us!
+The second section is less organized: It contains specific information on how to work around accessibility bugs in Inform 7 for Windows to acomplish certain tasks. It is only descriptive, and is not intended as a discussion of best practice. In other words, if you find a better way, do that instead. And please share it with us!
 
 ## Contributing
 
 If you have comments, corrections, or tips of your own, please submit them in an issue or a pull request.
 
-If you are interested in the workings of the Inform 7 Windows IDE, [its sourcecode is here](https://github.com/DavidKinder/Windows-Inform7).
+If you are interested in the workings of Inform 7 for Windows itself, [its sourcecode is here](https://github.com/DavidKinder/Windows-Inform7).
 
 I'm providing the above link in good faith, and not as any kind of dig at David Kinder. He has worked and _does_ work hard on the software, and I don't believe its present state of accessibility to be a result of any malice on his part. I encourage people to open issues and give constructive feedback, but not to go after the guy.
 
@@ -205,12 +205,12 @@ If you aren't placed in the correct field, press CTRL+F6 to get there. If you're
 
 From here, you can use basic text review [commands](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ReviewingText) to view your input and output. These appear in the same field, in the manner of Frotz, Glulx, and HTML TADS.
 
-If your keyboard focus is in the right place but your review curser is somewhere else, anchor your review curser to your keyboard focus with the shortcut set on your system. By default, the shortcuts are:
+If your keyboard focus is in the right place but your review cursor is somewhere else, anchor your review cursor to your keyboard focus with the shortcut set on your system. By default, the shortcuts are:
 
 * Desktop layout: NVDA+numpadMinus
 * Laptop layout: NVDA+backspace
 
-You may also want to unsync your review curser from your system caret. This reduces the amount of scrolling up, as new commands will not reset the position of your review curser to the bottom. The default gesture for this on all layouts is NVDA+6. The gesture is called:
+You may also want to unsync your review cursor from your system caret. This reduces the amount of scrolling up, as new commands will not reset the position of your review cursor to the bottom. The default gesture for this on all layouts is NVDA+6. The gesture is called:
 
 > Toggles on and off the movement of the review cursor due to the caret moving.
 
@@ -219,6 +219,22 @@ If you would rather just run your testing commands from the IDE and view the out
 1. CTRL+A in the console to select all
 2. CTRL+C to copy selection.
 3. CTRL+V in a file somewhere to paste.
+
+### Reading the Compilation Log
+
+When you compile your source, inform prints some information about that process to another console on the "Results" tab. This is distinct from the "Report", which gives human-readable messages about compilation. This other information can be useful for debugging Inform itself. If something strange happens, information about it will appear here. To access this, do the following:
+
+Ensure you have simple review mode on, and then focus the "Results" tab with CTRL+F2. You will be positioned in the regular compilation report.
+
+Now, set your navigator object to your keyboard focus. NVDA may say "paragraph".
+
+From here, you need to go up by three levels of object containment, so do the gesture you have assigned for this thrice. By default it is NVDA+numpad8 in the desktop layout, Shift+NVDA+up in laptop.
+
+The first time you press the gesture, NVDA will start reading a line from the compilation report. The second time you do it, NVDA will say "table". The third time, NVDA will say "document".
+
+Navigate left from here (NVDA+numpad4 or Shift+NVDA+left) and you will find an unlabelled tab control. Move inside the tab control (NVDA+numpad2 or Shift+NVDA+down) and you will be focused on the 'Report" tab, which will be selected.
+
+Move to the right once (NVDA+numpad6 or Shift+NVDA+right), and you will hear "console  tab". Activate this tab, and your keyboard focus will jump into the console Window, which you can navigate with your arrow keys or review cursor, as you prefer.
 
 ### Notes on Reading Syntax
 
