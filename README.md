@@ -117,13 +117,13 @@ Various keyboard shortcuts work in Inform which allow you to easily skip between
 </table>
 
 A final shortcut is worth mentioning in this section, and that is the "Switch Panes" shortcut - F6.
-Inform 7 remembers the last thing you were doing before using one of the commands in the table above. TO switch back to that task, press F6.
+Inform 7 remembers the last thing you were doing before using one of the commands in the table above. To switch back to that task, press F6.
 
 e.g. When you compile your source ("Go!") either compilation will succeed and you will be placed on the "Story" tab, or it will fail, and you will be placed in a report containing compilation errors. To switch back to your source from here, you can press F6.
 
 ### Other Shortcuts
 
-Inform 7 for Windows also has other shortcuts typical of Windows programs. CTRL+n for "new", CTRL+O for "open", CTRL+S for "save", CTRL+Z for undo, CTRL+F for find, etc. Menus can also be navigated to with Alt+initial (where initial is the first letter of the menu's name).
+Inform 7 for Windows also has other shortcuts typical of Windows programs. CTRL+n for "new", CTRL+O for "open", CTRL+S for "save", CTRL+Z for undo, CTRL+F for find, etc. Menus can also be navigated to with alt+accelerator (where accelerator is a letter in the menu's name). A list of these shortcuts is in the next section.
 
 There are a few more built-in keyboard shortcuts specific to Inform 7 projects which make life easier:
 
