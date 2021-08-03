@@ -16,7 +16,7 @@ This documentation is split into two sections.
 
 The first discusses the ease of access to the functions of the modern Inform 7 IDE. In this case, "ease" refers not to a user's proficiency with either their screenreader or Inform 7, but the relative accessibility of those functions to NVDA's built-in services.
 
-Most users reasonably familiar with NVDA already have the skills necessary to use Inform 7 with it. For all but the "Story" tab, standard editing and page navigation commands are all you will need. To use the "Story" tab, you will need to know the basics of object navigation.
+Most users reasonably familiar with NVDA already have the skills necessary to use Inform 7 with it. For all but the "Story" tab, standard editing and page navigation commands are all you will need. To use the "Story" tab, you will need to know the basics of [object navigation](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ObjectNavigation) and [text review](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ReviewingText).
 
 The second section is less organized: It contains specific information on how to work around accessibility bugs in Inform 7 to acomplish certain tasks. It is only descriptive, and is not intended as a discussion of best practice. In other words, if you find a better way, do that instead. And please share it with us!
 
@@ -26,17 +26,19 @@ If you have comments, corrections, or tips of your own, please submit them in an
 
 If you are interested in the workings of the Inform 7 Windows IDE, [its sourcecode is here](https://github.com/DavidKinder/Windows-Inform7).
 
-I'm providing the above link in good faith, and not as a dig at David Kinder. He has worked and does work hard on the software, and I don't believe its present state of accessibility to be a result of any malice on his part. That said, I will not spend any time apologizing for its present state either. Problems with accessibility are [bugs](https://www.techopedia.com/definition/24864/software-bug-) by definition, and anyone's wanting them fixed is not personal.
+I'm providing the above link in good faith, and not as any kind of dig at David Kinder. He has worked and _does_ work hard on the software, and I don't believe its present state of accessibility to be a result of any malice on his part. I encourage people to open issues and give constructive feedback, but not to go after the guy.
+
+That said, I will not spend any time apologizing for its inaccessibility either. Problems with accessibility are [bugs](https://www.techopedia.com/definition/24864/software-bug-) by definition, and anyone's wanting them fixed is not personal.
 
 ***
 
 ## Usability
 
-This section discusses the various tasks an Author can acomplish in Inform 7, and how much they might be impeded by the program's current design.
+This section discusses the various tasks an Author can acomplish in Inform 7 for Windows, and how much they might be impeded by the program's current design.
 
 The information here applies most specifically to versions of Inform 7 build 6m62, but applies fairly consistently back to build 6g60.
 
-The minimum tested NVDA version is 2014.1. Considering the current stable release is version 2021.1, this should be good news for a range of users.
+The minimum tested NVDA version is 2014.1. Since the current stable release is version 2021.1, this should be good news for a range of users.
 
 ### No Barrier
 
@@ -46,7 +48,6 @@ Most of the core functions of the Inform 7 IDE are thankfully all available to a
 * The creation and management of extensions and extension projects
 * Navigation between different parts of the interface
 * The writing, reading, and editing of source
-* The reading of highlighted syntax (requires changing NVDA settings)
 * Compilation and release
 * The reading of compilation errors
 * Searching the Documentation
@@ -56,7 +57,8 @@ Most of the core functions of the Inform 7 IDE are thankfully all available to a
 
 The features in the following list are all technically accessible, but their functionality is diminished to a point where their usability is somewhat debatable. They are also most likely the easiest to fix.
 
-* Viewing the built-in documentation (improved in 64-bit app)
+* Viewing the built-in documentation (slightly improved in 64-bit app)
+* The reading of highlighted syntax (requires changing NVDA settings)
 * Playing or testing projects in the "story" tab
 * Using the "Test Me" feature
 * Using the spell checker
@@ -76,6 +78,8 @@ The following features are not currently usable in any meaningful way. These are
 ## Using the Program
 
 What follows is a collection of tips and tricks, in no particular order. They concern potential approaches to working around some of the limitations of the software, listed in the "No" and "Low" Barrier sections. This is not intended to be a technical representation of the issues, but a summary of techniques for an Author wanting to maximize what they can use.
+
+I hope others will contribute their own information to this document, I would love to have missed something.
 
 ### Navigating Between Parts of the Window
 
@@ -108,7 +112,7 @@ Various keyboard shortcuts work in Inform which allow you to easily skip between
 	</tr>
 	<tr>
 		<td>CTRL+F9</td>
-		<td>preferences</td>
+		<td>project-specific preferences</td>
 	</tr>
 </table>
 
@@ -142,6 +146,49 @@ There are a few more built-in keyboard shortcuts specific to Inform 7 projects w
 	</tr>
 </table>
 
+### The Menu Bar
+
+As of 6m62, the names of the menus on the menu bar are no longer announced after pressing alt. They still behave normally in every other way, but this can throw some people off. Here are the shortcut keys to get to individual menus.
+
+<table>
+	<tr>
+		<th>Press</th>
+		<For</th>
+	</tr>
+	<tr>
+		<td>Alt+F</td>
+		<td>File</td>
+	</tr>
+	<tr>
+		<td>Alt+E</td>
+		<td>Edit</td>
+	</tr>
+	<tr>
+		<td>Alt+O</td>
+		<td>Format</td>
+	</tr>
+	<tr>
+		Alt+P</td>
+		<td>Play</td>
+	</tr>
+	<tr>
+		<td>Alt+A</td>
+		<td>Replay</td>
+	</tr>
+	<tr>
+		<td>Alt+R</td>
+		<td>Release</td>
+	</tr>
+	<tr>
+		<td>Alt+W</td>
+		<td>Window</td>
+	</tr>
+	<tr>
+		<td>Alt+H</td>
+		<td>Help</td>
+	</tr>
+</table>
+
 ### Testing your Game
 
 Inform 7 for Windows has built-in interpreters which will run your compiled code in a console on the "Story" tab, allowing you to test it straight from the IDE without needing to release it for testing every time you make a change. This feature is almost accessible to screenreader users. You will be able to enter commands into your story and read their output, with a caveat:
@@ -152,18 +199,18 @@ It comes down to a question of what you find most inconvenient. You can of cours
 
 Here are some instructions for reading the output from within the app, and some tips to make it a little less painless.
 
-By default, Inform 7 automatically places your focus where you need it. You will know you are in the right place if you see a multi-line edit with your command prompt in it. This will be ">", or whatever you set it to in your source.
+By default, Inform 7 for Windows automatically places your focus where you need it. You will know you are in the right place if you see a multi-line edit with your command prompt in it. This will be ">", or whatever you set it to in your source.
 
 If you aren't placed in the correct field, press CTRL+F6 to get there. If you're not sure that you are there, you can press F6 twice to jump back to the previous pane, and then to the "Story" tab.
 
-From here, you can use basic [text review](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ReviewingText) commands to view your input and output. These appear in the same field, in the manner of Frotz, Glulx, and HTML TADS.
+From here, you can use basic text review [commands](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ReviewingText) to view your input and output. These appear in the same field, in the manner of Frotz, Glulx, and HTML TADS.
 
 If your keyboard focus is in the right place but your review curser is somewhere else, anchor your review curser to your keyboard focus with the shortcut set on your system. By default, the shortcuts are:
 
 * Desktop layout: NVDA+numpadMinus
 * Laptop layout: NVDA+backspace
 
-You may also want to unsync your review curser from your system caret. This reduces the amount of scrolling up you have to do, as new commands will not reset the position of your review curser to the bottom. The default gesture for this on all layouts is NVDA+6. The gesture is called:
+You may also want to unsync your review curser from your system caret. This reduces the amount of scrolling up, as new commands will not reset the position of your review curser to the bottom. The default gesture for this on all layouts is NVDA+6. The gesture is called:
 
 > Toggles on and off the movement of the review cursor due to the caret moving.
 
@@ -172,4 +219,20 @@ If you would rather just run your testing commands from the IDE and view the out
 1. CTRL+A in the console to select all
 2. CTRL+C to copy selection.
 3. CTRL+V in a file somewhere to paste.
+
+### Notes on Reading Syntax
+
+It is indeed possible to get information on highlighted syntax, if that is important to you. You can set the font and style of certain source elements on the "Editing" tab of the main preferences dialog. This is not the CTRL+F9 preferences, but the one accessed from the "Edit" menu.
+
+At the moment, the Windows color picker seems not to read the names of the preset colors as it used to, so people unfamiliar with RGB or HSL will not be able to set colors for source elements. Setting font style and size works normally.
+
+To get NVDA to read font changes in your source, you will need to enable the following options in NVDA's "Document Formatting" settings.
+
+* Font attributes
+* Font style
+* Report formatting changes after the cursor
+
+You may also wish to enable line indentation reporting: NVDA can read out the number of spaces or tabs that a line is indented by, or play a tone. The higher the tone, the wider the indent.
+
+If you feel like you may be turning these things on and off frequently, you could create a [configuration profile](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ConfigurationProfiles) to have NVDA do it for you.
 
