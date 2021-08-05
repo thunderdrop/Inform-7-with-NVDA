@@ -197,7 +197,7 @@ At present, the output of your commands is not automatically read by a screenrea
 
 It comes down to a question of what you find most inconvenient. You can of course release the game and play it in an interpreter which automatically reads the output, but you will have to do that every time you make even the smallest change. If you choose to use the "Story" tab, you will have to read the output manually. This can be frustrating (especially if your testing commands give a lot of output), as each time you enter something, your focus jumps to the bottom of that pane.
 
-Here are some instructions for reading the output from within the app, and some tips to make it a little less painless.
+Here are some instructions for reading the output from within the app, and some tips to make it a little less painful.
 
 By default, Inform 7 for Windows automatically places your focus where you need it. You will know you are in the right place if you see a multi-line edit with your command prompt in it. This will be ">", or whatever you set it to in your source.
 
