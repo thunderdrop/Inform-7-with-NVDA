@@ -18,7 +18,7 @@ The first discusses the ease of access to the functions of the modern Inform 7 I
 
 Most users reasonably familiar with NVDA already have the skills necessary to use Inform 7 with it. For all but the "Story" tab, standard editing and page navigation commands are all you will need. To use the "Story" tab, you will need to know the basics of [object navigation](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ObjectNavigation) and [text review](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ReviewingText).
 
-The second section is less organized: It contains specific information on how to work around accessibility bugs in Inform 7 for Windows to acomplish certain tasks. It is only descriptive, and is not intended as a discussion of best practice. In other words, if you find a better way, do that instead. And please share it with us!
+The second section is less organized: It contains specific information on how to work around accessibility bugs in Inform 7 for Windows to accomplish certain tasks. It is only descriptive, and is not intended as a discussion of best practice. In other words, if you find a better way, do that instead. And please share it with us!
 
 ## Contributing
 
