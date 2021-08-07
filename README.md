@@ -4,17 +4,17 @@
 
 ## Purpose of this Document
 
-This document exists to familiarize an Inform 7 author with the form and functions of David Kinder's Windows interface, and recommendations of how these can best be accessed with a screenreader. This document primarily focuses on using the program with [NonVisual Desktop Access](https://www.nvaccess.org/) (herein "NVDA"), though some of these techniques have equivalents in other screenreaders, and applying those equivalents may have positive results.
+This document exists to familiarize an Inform 7 author with the form and functions of David Kinder's Windows interface, and recommendations of how these can best be accessed with a screen reader. This document primarily focuses on using the program with [NonVisual Desktop Access](https://www.nvaccess.org/) (herein "NVDA"), though some of these techniques have equivalents in other screen readers, and applying those equivalents may have positive results.
 
 #### A Reminder to Sighted Readers
 
-Screenreaders are only specialized insofar as they convert on-screen text to speech or Braille output. They do this through calls to existing APIs, which are well documented and officially supported.
+Screen readers are only specialized insofar as they convert on-screen text to speech or Braille output. They do this through calls to existing APIs, which are well documented and officially supported.
 
 ### Method
 
 This documentation is split into two sections.
 
-The first discusses the ease of access to the functions of the modern Inform 7 IDE. In this case, "ease" refers not to a user's proficiency with either their screenreader or Inform 7, but the relative accessibility of those functions to NVDA's built-in services.
+The first discusses the ease of access to the functions of the modern Inform 7 IDE. In this case, "ease" refers not to a user's proficiency with either their screen reader or Inform 7, but the relative accessibility of those functions to NVDA's built-in services.
 
 Most users reasonably familiar with NVDA already have the skills necessary to use Inform 7 with it. For all but the "Story" tab, standard editing and page navigation commands are all you will need. To use the "Story" tab, you will need to know the basics of [object navigation](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ObjectNavigation) and [text review](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#ReviewingText).
 
@@ -191,9 +191,9 @@ As of 6m62, the names of the menus on the menu bar are no longer announced after
 
 ### Testing your Game
 
-Inform 7 for Windows has built-in interpreters which will run your compiled code in a console on the "Story" tab, allowing you to test it straight from the IDE without needing to release it for testing every time you make a change. This feature is almost accessible to screenreader users. You will be able to enter commands into your story and read their output, with a caveat:
+Inform 7 for Windows has built-in interpreters which will run your compiled code in a console on the "Story" tab, allowing you to test it straight from the IDE without needing to release it for testing every time you make a change. This feature is almost accessible to screen reader users. You will be able to enter commands into your story and read their output, with a caveat:
 
-At present, the output of your commands is not automatically read by a screenreader as it comes in; you will have to manually scroll up each time you enter a command, and read the output line by line.
+At present, the output of your commands is not automatically read by a screen reader as it comes in; you will have to manually scroll up each time you enter a command, and read the output line by line.
 
 It comes down to a question of what you find most inconvenient. You can of course release the game and play it in an interpreter which automatically reads the output, but you will have to do that every time you make even the smallest change. If you choose to use the "Story" tab, you will have to read the output manually. This can be frustrating (especially if your testing commands give a lot of output), as each time you enter something, your focus jumps to the bottom of that pane.
 
