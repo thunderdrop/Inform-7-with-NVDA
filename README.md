@@ -34,7 +34,7 @@ That said, I will not spend any time apologizing for its inaccessibility either.
 
 ## Usability
 
-This section discusses the various tasks an Author can acomplish in Inform 7 for Windows, and how much they might be impeded by the program's current design.
+This section discusses the various tasks an Author can accomplish in Inform 7 for Windows, and how much they might be impeded by the program's current design.
 
 The information here applies most specifically to versions of Inform 7 build 6m62, but applies fairly consistently back to build 6g60.
 
