@@ -1,7 +1,7 @@
 # Getting the Most out of the Inform 7 Windows IDE with NonVisual Desktop Access
 
 Written by Peregryn Winterwell.
-Edited by Garrett Klein (@garrettk18).
+Edited by Garrett Klein ([@garrettk18](https://github.com/garrettk18)
 
 ***
 
