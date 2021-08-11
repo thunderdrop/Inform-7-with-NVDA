@@ -25,7 +25,7 @@ The second section is less organized: It contains specific information on how to
 
 ## Contributing
 
-If you have comments, corrections, or tips of your own, please submit them in an issue or a pull request.
+If you have comments, corrections, or tips of your own, please submit them in an issue or a pull request. There is also [a discussion on the Interactive Fiction Community Forum](https://intfiction.org/t/how-to-use-the-inform-7-windows-ide-with-nvda/52053) which you are welcome to interact with.
 
 If you are interested in the workings of Inform 7 for Windows itself, [its sourcecode is here](https://github.com/DavidKinder/Windows-Inform7).
 
