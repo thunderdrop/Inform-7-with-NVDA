@@ -41,7 +41,7 @@ This section discusses the various tasks an Author can accomplish in Inform 7 fo
 
 The information here applies most specifically to versions of Inform 7 build 6m62, but applies fairly consistently back to build 6g60.
 
-The minimum tested NVDA version is 2014.1. Since the current stable release is version 2021.1, this should be good news for a range of users.
+The minimum tested NVDA version is 2014.1. Since the current stable release is version 2021.3.1, this should be good news for a range of users.
 
 ### No Barrier
 
@@ -69,7 +69,7 @@ The features in the following list are all technically accessible, but their fun
 
 ### High Barrier (Not Currently Possible)
 
-The following features are not currently usable in any meaningful way. These are listed in order of most-to-least trivial to fix.
+The following features are not currently usable in any meaningful way. These are listed in order of least-to-most trivial to fix.
 
 * The entire index
 * The skein
