@@ -94,6 +94,10 @@ Various keyboard shortcuts work in Inform which allow you to easily skip between
 		<th>To</th>
 	</tr>
 	<tr>
+		<td>SHIFT+F1</td>
+		<td>show launcher</td>
+	</tr>
+	<tr>
 		<td>CTRL+F1</td>
 		<td>view/edit source text</td>
 	</tr>
