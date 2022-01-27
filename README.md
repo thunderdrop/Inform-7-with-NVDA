@@ -86,7 +86,7 @@ I hope others will contribute their own information to this document, I would lo
 
 ### Navigating Between Parts of the Window
 
-Various keyboard shortcuts work in Inform which allow you to easily skip between parts of the window. Here are the most useful ones:
+Various keyboard shortcuts work in Inform which allow you to easily skip between parts of the window. As of 6M62 64-bit beta 5, a full list of the keyboard shortcuts is available from the launcher. Here are the most useful ones. 
 
 <table>
 	<tr>
